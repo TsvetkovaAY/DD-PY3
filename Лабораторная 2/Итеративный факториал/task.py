@@ -5,7 +5,7 @@ def factorial_iterative(n: int) -> int:
     :param n: Число, факториал которого нужно найти
     :return: n! - факториал числа n
     """
-    .    if not isinstance(n, int):
+    if not isinstance(n, int):
         raise TypeError()
     if n < 0:
         raise ValueError()
